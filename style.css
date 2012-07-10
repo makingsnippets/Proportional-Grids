@@ -130,76 +130,76 @@ h2 {
 
   .mq3-col-three-quarters {
     width: 75%; } }
-/* -- Fix IE7
+/* -- Fix IE
 ------------------------------------------------------------- */
-.ie7 .container {
+.lt-ie9 .container {
   width: 960px; }
 
-.ie7 .grid-wrap {
+.oldie .grid-wrap {
   margin-left: 0; }
-.ie7 .grid-col {
+.oldie .grid-col {
   padding: 0;
   margin-left: 5%; }
-  .ie7 .grid-col:first-child {
+  .oldie .grid-col:first-child {
     margin-left: 0; }
 
 /* -- Repeat for each set of grids you have -- */
-.ie7 .col-one-half {
+.oldie .col-one-half {
   width: 47.45%; }
 
-.ie7 .col-one-third {
+.oldie .col-one-third {
   width: 29.55%; }
 
-.ie7 .col-two-thirds {
+.oldie .col-two-thirds {
   width: 64.95%; }
 
-.ie7 .col-one-quarter {
+.oldie .col-one-quarter {
   width: 19.95%; }
 
-.ie7 .col-three-quarters {
+.oldie .col-three-quarters {
   width: 74.95%; }
 
-.ie7 .mq1-col-one-half {
+.oldie .mq1-col-one-half {
   width: 47.45%; }
 
-.ie7 .mq1-col-one-third {
+.oldie .mq1-col-one-third {
   width: 29.55%; }
 
-.ie7 .mq1-col-two-thirds {
+.oldie .mq1-col-two-thirds {
   width: 64.95%; }
 
-.ie7 .mq1-col-one-quarter {
+.oldie .mq1-col-one-quarter {
   width: 19.95%; }
 
-.ie7 .mq1-col-three-quarters {
+.oldie .mq1-col-three-quarters {
   width: 74.95%; }
 
-.ie7 .mq2-col-one-half {
+.oldie .mq2-col-one-half {
   width: 47.45%; }
 
-.ie7 .mq2-col-one-third {
+.oldie .mq2-col-one-third {
   width: 29.55%; }
 
-.ie7 .mq2-col-two-thirds {
+.oldie .mq2-col-two-thirds {
   width: 64.95%; }
 
-.ie7 .mq2-col-one-quarter {
+.oldie .mq2-col-one-quarter {
   width: 19.95%; }
 
-.ie7 .mq2-col-three-quarters {
+.oldie .mq2-col-three-quarters {
   width: 74.95%; }
 
-.ie7 .mq3-col-one-half {
+.oldie .mq3-col-one-half {
   width: 47.45%; }
 
-.ie7 .mq3-col-one-third {
+.oldie .mq3-col-one-third {
   width: 29.55%; }
 
-.ie7 .mq3-col-two-thirds {
+.oldie .mq3-col-two-thirds {
   width: 64.95%; }
 
-.ie7 .mq3-col-one-quarter {
+.oldie .mq3-col-one-quarter {
   width: 19.95%; }
 
-.ie7 .mq3-col-three-quarters {
+.oldie .mq3-col-three-quarters {
   width: 74.95%; }

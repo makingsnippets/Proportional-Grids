@@ -48,10 +48,10 @@ $half-gutter: $gutter / 2;
 	.#{$namespace}-three-quarters 	{ width: 75%; }
 }
 
-// account for no border-box in ie7
-@mixin fix-ie7 {
+// account for no border-box in ie6/7
+@mixin fix-oldie {
 
-	.ie7 {
+	.oldie {
 		.grid-wrap {
 			margin-left: 0; }
 		
@@ -65,8 +65,8 @@ $half-gutter: $gutter / 2;
 	}
 }
 
-// amend these widths for ie7
-@mixin ie7-grid($namespace: col) {
+// amend these widths for ie6/7
+@mixin oldie-grid($namespace: col) {
 	.#{$namespace}-one-half 		{ width: 47.45%; }
 	.#{$namespace}-one-third 		{ width: 29.55%; }
 	.#{$namespace}-two-thirds 		{ width: 64.95%; }
@@ -142,14 +142,14 @@ $half-gutter: $gutter / 2;
     
 }
 
-/* -- Fix IE7
+/* -- Fix IE
 ------------------------------------------------------------- */			
-.ie7 .container {
+.lt-ie9 .container, {
 	width: 960px; }
 	
-@include fix-ie7();
+@include fix-oldie();
 /* -- Repeat for each set of grids you have -- */
-@include ie7-grid($namespace: "ie7 .col");
-@include ie7-grid($namespace: "ie7 .mq1-col");
-@include ie7-grid($namespace: "ie7 .mq2-col");
-@include ie7-grid($namespace: "ie7 .mq3-col");
+@include oldie-grid($namespace: "oldie .col");
+@include oldie-grid($namespace: "oldie .mq1-col");
+@include oldie-grid($namespace: "oldie .mq2-col");
+@include oldie-grid($namespace: "oldie .mq3-col");
