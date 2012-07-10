@@ -9,4 +9,5 @@ Supports nested grids and requires no class="first" or :first-child nonsense. Ev
 **Read all about it: http://builtbyboon.com/blog/proportional-grids**
 
 built by Boon – given away free
+
 If you have questions or put this to use then hit me up on Twitter.
