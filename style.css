@@ -65,6 +65,9 @@ h2 {
     padding-left: 1.5em; }
 
 /* -- If you want any columns to begin with -- */
+.col-full{
+  width: 100%; }
+
 .col-one-half {
   width: 50%; }
 
@@ -83,6 +86,9 @@ h2 {
 /* -- Media query 1 (mq1)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 30em) {
+  .mq1-col-full{
+    width: 100%; }
+	
   .mq1-col-one-half {
     width: 50%; }
 
@@ -100,6 +106,9 @@ h2 {
 /* -- Media query 2 (mq2)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 48em) {
+  .mq2-col-full{
+    width: 100%; }
+
   .mq2-col-one-half {
     width: 50%; }
 
@@ -117,6 +126,9 @@ h2 {
 /* -- Media query 3 (mq3)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 60em) {
+  .mq3-col-full{
+    width: 100%; }
+	
   .mq3-col-one-half {
     width: 50%; }
 

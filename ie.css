@@ -3,6 +3,9 @@ Author  : Boon
 URL     : http://builtbyboon.com
 Twitter	: http://twitter.com/mattberridge
 ---------------------------------------*/
+.mq1-col-full {
+  width: 100%; }
+
 .mq1-col-one-half {
   width: 50%; }
 
@@ -18,6 +21,9 @@ Twitter	: http://twitter.com/mattberridge
 .mq1-col-three-quarters {
   width: 75%; }
 
+.mq2-col-full {
+  width: 100%; }
+
 .mq2-col-one-half {
   width: 50%; }
 
@@ -32,6 +38,9 @@ Twitter	: http://twitter.com/mattberridge
 
 .mq2-col-three-quarters {
   width: 75%; }
+
+.mq3-col-full {
+  width: 100%; }
 
 .mq3-col-one-half {
   width: 50%; }
@@ -61,6 +70,9 @@ Twitter	: http://twitter.com/mattberridge
   .oldie .grid-col:first-child {
     margin-left: 0; }
 
+.oldie .col-full {
+  width: 99.95%; }
+
 .oldie .col-one-half {
   width: 47.45%; }
 
@@ -75,6 +87,9 @@ Twitter	: http://twitter.com/mattberridge
 
 .oldie .col-three-quarters {
   width: 74.95%; }
+
+.oldie .mq1-col-full {
+  width: 99.95%; }
 
 .oldie .mq1-col-one-half {
   width: 47.45%; }
@@ -91,6 +106,9 @@ Twitter	: http://twitter.com/mattberridge
 .oldie .mq1-col-three-quarters {
   width: 74.95%; }
 
+.oldie .mq2-col-full {
+  width: 99.95%; }
+
 .oldie .mq2-col-one-half {
   width: 47.45%; }
 
@@ -105,6 +123,9 @@ Twitter	: http://twitter.com/mattberridge
 
 .oldie .mq2-col-three-quarters {
   width: 74.95%; }
+
+.oldie .mq3-col-full {
+  width: 99.95%; }
 
 .oldie .mq3-col-one-half {
   width: 47.45%; }
