@@ -1,0 +1,200 @@
+/*
+Author  : Boon
+URL     : http://builtbyboon.com
+Twitter	: http://twitter.com/mattberridge
+---------------------------------------*/
+body {
+  margin: 0;
+  font: 1em/1.5 sans-serif; }
+
+.strip {
+  background: #891434;
+  color: #fff;
+  padding: 1em 5%; }
+  .strip p {
+    font-size: 1.2em; }
+
+.container {
+  width: 90%;
+  margin: 2em auto; }
+
+p {
+  text-align: justify;
+  margin: 0 0 1.5em 0; }
+
+a {
+  color: #fff; }
+
+h2 {
+  margin-top: 0; }
+
+/* -- Begin grids
+------------------------------------------------------------- */
+/* -- Use this wrapper if you want to divide your columns -- */
+.divide-bottom {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5em; }
+
+/* -- Use this wrapper if you want to block-out a column -- */
+.island {
+  padding: 1.5em;
+  background-color: #ececec; }
+  .island :last-child {
+    margin-bottom: 0; }
+
+/* -- Set up your grids -- */
+.grid-wrap {
+  margin-left: -1.5em;
+  /* the same as your gutter */
+  overflow: hidden;
+  clear: both; }
+
+.grid-col {
+  float: left;
+  padding-left: 1.5em;
+  /* this is your gutter between columns */
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* -- If you want any columns to begin with -- */
+.col-one-half {
+  width: 50%; }
+
+.col-one-third {
+  width: 33.333%; }
+
+.col-two-thirds {
+  width: 66.666%; }
+
+.col-one-quarter {
+  width: 25%; }
+
+.col-three-quarters {
+  width: 75%; }
+
+/* -- Media query 1 (mq1)
+------------------------------------------------------------- */
+@media only screen and (min-width: 30em) {
+  .mq1-col-one-half {
+    width: 50%; }
+
+  .mq1-col-one-third {
+    width: 33.333%; }
+
+  .mq1-col-two-thirds {
+    width: 66.666%; }
+
+  .mq1-col-one-quarter {
+    width: 25%; }
+
+  .mq1-col-three-quarters {
+    width: 75%; } }
+/* -- Media query 2 (mq2)
+------------------------------------------------------------- */
+@media only screen and (min-width: 48em) {
+  .mq2-col-one-half {
+    width: 50%; }
+
+  .mq2-col-one-third {
+    width: 33.333%; }
+
+  .mq2-col-two-thirds {
+    width: 66.666%; }
+
+  .mq2-col-one-quarter {
+    width: 25%; }
+
+  .mq2-col-three-quarters {
+    width: 75%; } }
+/* -- Media query 3 (mq3)
+------------------------------------------------------------- */
+@media only screen and (min-width: 60em) {
+  .mq3-col-one-half {
+    width: 50%; }
+
+  .mq3-col-one-third {
+    width: 33.333%; }
+
+  .mq3-col-two-thirds {
+    width: 66.666%; }
+
+  .mq3-col-one-quarter {
+    width: 25%; }
+
+  .mq3-col-three-quarters {
+    width: 75%; } }
+/* -- Fix IE7
+------------------------------------------------------------- */
+.ie7 .container {
+  width: 960px; }
+
+.ie7 .grid-wrap {
+  margin-left: 0; }
+.ie7 .grid-col {
+  padding: 0;
+  margin-left: 5%; }
+  .ie7 .grid-col:first-child {
+    margin-left: 0; }
+
+/* -- Repeat for each set of grids you have -- */
+.ie7 .col-one-half {
+  width: 47.45%; }
+
+.ie7 .col-one-third {
+  width: 29.55%; }
+
+.ie7 .col-two-thirds {
+  width: 64.95%; }
+
+.ie7 .col-one-quarter {
+  width: 19.95%; }
+
+.ie7 .col-three-quarters {
+  width: 74.95%; }
+
+.ie7 .mq1-col-one-half {
+  width: 47.45%; }
+
+.ie7 .mq1-col-one-third {
+  width: 29.55%; }
+
+.ie7 .mq1-col-two-thirds {
+  width: 64.95%; }
+
+.ie7 .mq1-col-one-quarter {
+  width: 19.95%; }
+
+.ie7 .mq1-col-three-quarters {
+  width: 74.95%; }
+
+.ie7 .mq2-col-one-half {
+  width: 47.45%; }
+
+.ie7 .mq2-col-one-third {
+  width: 29.55%; }
+
+.ie7 .mq2-col-two-thirds {
+  width: 64.95%; }
+
+.ie7 .mq2-col-one-quarter {
+  width: 19.95%; }
+
+.ie7 .mq2-col-three-quarters {
+  width: 74.95%; }
+
+.ie7 .mq3-col-one-half {
+  width: 47.45%; }
+
+.ie7 .mq3-col-one-third {
+  width: 29.55%; }
+
+.ie7 .mq3-col-two-thirds {
+  width: 64.95%; }
+
+.ie7 .mq3-col-one-quarter {
+  width: 19.95%; }
+
+.ie7 .mq3-col-three-quarters {
+  width: 74.95%; }

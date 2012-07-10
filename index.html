@@ -1,0 +1,116 @@
+<!doctype html>
+<!--[if IE 7]><html class="ie7" lang="en"><![endif]-->
+<!--[if gt IE 7]><!--><html lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Proportional Grids</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="strip">
+		<h1>Proportional Grids</h1>
+		<p>Don&rsquo;t think widths, think proportions. A dead simple method of creating responsive fluid grids with fixed gutters. Use classes to set the proportions you want your grid to take at which breakpoint.</p>
+		<p>Supports nested grids and requires no class="first" or :first-child nonsense. <strong>Even works in IE7</strong></p>
+		<p><a href="http://builtbyboon.com">built by Boon</a> - given away free.<br />
+		If you have questions or put this to use then <a href="http://twitter.com/mattberridge">hit me up on Twitter</a>.</p>
+	</div>
+	
+	<div class="container">
+	
+		<!-- Basic grid  -->
+
+		<div class="divide-bottom">
+			<div class="grid-wrap">
+				<div class="grid-col col-one-half">
+					<h2>Basic grid</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+				</div>
+				<div class="grid-col col-one-half">
+					<h2>Basic grid</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+				</div>
+			</div>  
+		</div>
+	
+		<!-- Changing grid  -->
+
+		<div class="divide-bottom">
+			<div class="grid-wrap">
+				<div class="grid-col mq1-col-one-half mq2-col-two-thirds">
+					<h2>Changing grid</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				</div>
+				<div class="grid-col mq1-col-one-half mq2-col-one-third">
+					<h2>Changing grid</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				</div>
+			</div>  
+		</div>
+		
+		<!-- Jumping grid -->
+		
+		<div class="divide-bottom">
+			<div class="grid-wrap">   
+				<div class="grid-col mq1-col-one-half mq2-col-one-third">
+					<h2>Jumping grid</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				</div>
+				<div class="grid-col mq1-col-one-half mq2-col-one-third">
+					<h2>Jumping grid</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				</div>
+				<div class="grid-col mq2-col-one-third">
+					<h2>Jumping grid</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Nested grid -->
+		
+		<div class="divide-bottom">
+			<div class="grid-wrap">   
+				<div class="grid-col mq1-col-one-half">
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					
+						<div class="grid-wrap">   
+							<div class="grid-col mq3-col-one-half">
+								<h2>Nested grid</h2>
+								<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+							</div>
+							<div class="grid-col mq3-col-one-half">
+								<h2>Nested grid</h2>
+								<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+							</div>
+						</div>
+					
+				</div>
+				<div class="grid-col mq1-col-one-half">
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Blocked grid -->
+		
+		<div class="grid-wrap">    
+			<div class="grid-col mq1-col-one-half mq2-col-one-third">
+				<div class="island">
+					<h2>Blocked grid</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				</div>
+			</div>
+			<div class="grid-col mq1-col-one-half mq2-col-two-thirds">
+				<div class="island">
+					<h2>Blocked grid</h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+
+</body>
+</html>
