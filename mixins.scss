@@ -11,7 +11,7 @@ $half-gutter : $gutter / 2;
 	.#{$namespace}-one-third 		{ width: 33.333%; }
 	.#{$namespace}-two-thirds 		{ width: 66.666%; }
 	.#{$namespace}-one-quarter 		{ width: 25%; }
-	.#{$namespace}-three-quarters 	{ width: 75%; }
+	.#{$namespace}-three-quarters	{ width: 75%; }
 }
 
 // account for no border-box in ie6/7
