@@ -44,14 +44,14 @@ h2 {
 
 /* -- Set up your grids -- */
 .grid-wrap {
-  margin-left: -1.5em;
+  margin-left: -2em;
   /* the same as your gutter */
   overflow: hidden;
   clear: both; }
 
 .grid-col {
   float: left;
-  padding-left: 1.5em;
+  padding-left: 2em;
   /* this is your gutter between columns */
   width: 100%;
   -webkit-box-sizing: border-box;
