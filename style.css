@@ -44,19 +44,24 @@ h2 {
 
 /* -- Set up your grids -- */
 .grid-wrap {
-  margin-left: -2em;
+  margin-left: -3em;
   /* the same as your gutter */
   overflow: hidden;
   clear: both; }
 
 .grid-col {
   float: left;
-  padding-left: 2em;
+  padding-left: 3em;
   /* this is your gutter between columns */
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+.half-gutter {
+  margin-left: -1.5em; }
+  .half-gutter .grid-col {
+    padding-left: 1.5em; }
 
 /* -- If you want any columns to begin with -- */
 .col-one-half {

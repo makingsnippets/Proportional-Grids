@@ -33,7 +33,10 @@ h2 {
 /* -- Begin grids
 ------------------------------------------------------------- */	
 // this is the fixed gutter between columns
-$gutter : 2em; 
+$gutter : 3em;
+
+// for smaller gutters
+$half-gutter: $gutter / 2;
 
 // set the proportions you want to use
 // namespace relates to the class prefix e.g. mq2-col to target media query 2
@@ -103,6 +106,14 @@ $gutter : 2em;
        -moz-box-sizing: border-box;
             box-sizing: border-box; }
 
+.half-gutter {
+	margin-left: -$half-gutter;
+
+	.grid-col {
+		padding-left: $half-gutter; }
+
+}	
+			
 /* -- If you want any columns to begin with -- */
 			
 @include setup-grid;
