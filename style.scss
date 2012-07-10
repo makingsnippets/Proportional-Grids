@@ -76,7 +76,7 @@ h2 {
 			
 /* -- If you want any columns to begin with -- */
 			
-@include setup-grid;
+@include setup-grid($namespace: col);
 
 /* -- Media query 1 (mq1)
 ------------------------------------------------------------- */			

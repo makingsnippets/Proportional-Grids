@@ -2,11 +2,11 @@
 $gutter : 3em;
 
 // for smaller gutters
-$half-gutter: $gutter / 2;
+$half-gutter : $gutter / 2;
 
 // set the proportions you want to use
 // namespace relates to the class prefix e.g. mq2-col to target media query 2
-@mixin setup-grid($namespace: col) {
+@mixin setup-grid($namespace) {
 	.#{$namespace}-one-half 		{ width: 50%; }
 	.#{$namespace}-one-third 		{ width: 33.333%; }
 	.#{$namespace}-two-thirds 		{ width: 66.666%; }
@@ -32,7 +32,7 @@ $half-gutter: $gutter / 2;
 }
 
 // amend these widths for ie6/7
-@mixin oldie-grid($namespace: col) {
+@mixin oldie-grid($namespace) {
 	.#{$namespace}-one-half 		{ width: 47.45%; }
 	.#{$namespace}-one-third 		{ width: 29.55%; }
 	.#{$namespace}-two-thirds 		{ width: 64.95%; }
