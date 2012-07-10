@@ -12,6 +12,7 @@ body {
   color: #fff;
   padding: 1em 5%; }
   .strip p {
+    text-align: left;
     font-size: 1.2em; }
 
 .container {
@@ -130,76 +131,3 @@ h2 {
 
   .mq3-col-three-quarters {
     width: 75%; } }
-/* -- Fix IE
-------------------------------------------------------------- */
-.lt-ie9 .container {
-  width: 960px; }
-
-.oldie .grid-wrap {
-  margin-left: 0; }
-.oldie .grid-col {
-  padding: 0;
-  margin-left: 5%; }
-  .oldie .grid-col:first-child {
-    margin-left: 0; }
-
-/* -- Repeat for each set of grids you have -- */
-.oldie .col-one-half {
-  width: 47.45%; }
-
-.oldie .col-one-third {
-  width: 29.55%; }
-
-.oldie .col-two-thirds {
-  width: 64.95%; }
-
-.oldie .col-one-quarter {
-  width: 19.95%; }
-
-.oldie .col-three-quarters {
-  width: 74.95%; }
-
-.oldie .mq1-col-one-half {
-  width: 47.45%; }
-
-.oldie .mq1-col-one-third {
-  width: 29.55%; }
-
-.oldie .mq1-col-two-thirds {
-  width: 64.95%; }
-
-.oldie .mq1-col-one-quarter {
-  width: 19.95%; }
-
-.oldie .mq1-col-three-quarters {
-  width: 74.95%; }
-
-.oldie .mq2-col-one-half {
-  width: 47.45%; }
-
-.oldie .mq2-col-one-third {
-  width: 29.55%; }
-
-.oldie .mq2-col-two-thirds {
-  width: 64.95%; }
-
-.oldie .mq2-col-one-quarter {
-  width: 19.95%; }
-
-.oldie .mq2-col-three-quarters {
-  width: 74.95%; }
-
-.oldie .mq3-col-one-half {
-  width: 47.45%; }
-
-.oldie .mq3-col-one-third {
-  width: 29.55%; }
-
-.oldie .mq3-col-two-thirds {
-  width: 64.95%; }
-
-.oldie .mq3-col-one-quarter {
-  width: 19.95%; }
-
-.oldie .mq3-col-three-quarters {
-  width: 74.95%; }
