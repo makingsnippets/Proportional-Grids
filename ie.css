@@ -1,0 +1,122 @@
+/*
+Author  : Boon
+URL     : http://builtbyboon.com
+Twitter	: http://twitter.com/mattberridge
+---------------------------------------*/
+.mq1-col-one-half {
+  width: 50%; }
+
+.mq1-col-one-third {
+  width: 33.333%; }
+
+.mq1-col-two-thirds {
+  width: 66.666%; }
+
+.mq1-col-one-quarter {
+  width: 25%; }
+
+.mq1-col-three-quarters {
+  width: 75%; }
+
+.mq2-col-one-half {
+  width: 50%; }
+
+.mq2-col-one-third {
+  width: 33.333%; }
+
+.mq2-col-two-thirds {
+  width: 66.666%; }
+
+.mq2-col-one-quarter {
+  width: 25%; }
+
+.mq2-col-three-quarters {
+  width: 75%; }
+
+.mq3-col-one-half {
+  width: 50%; }
+
+.mq3-col-one-third {
+  width: 33.333%; }
+
+.mq3-col-two-thirds {
+  width: 66.666%; }
+
+.mq3-col-one-quarter {
+  width: 25%; }
+
+.mq3-col-three-quarters {
+  width: 75%; }
+
+/* -- Fix old IE
+------------------------------------------------------------- */
+.lt-ie9 .container {
+  width: 960px; }
+
+.oldie .grid-wrap {
+  margin-left: 0; }
+.oldie .grid-col {
+  padding: 0;
+  margin-left: 5%; }
+  .oldie .grid-col:first-child {
+    margin-left: 0; }
+
+.oldie .col-one-half {
+  width: 47.45%; }
+
+.oldie .col-one-third {
+  width: 29.55%; }
+
+.oldie .col-two-thirds {
+  width: 64.95%; }
+
+.oldie .col-one-quarter {
+  width: 19.95%; }
+
+.oldie .col-three-quarters {
+  width: 74.95%; }
+
+.oldie .mq1-col-one-half {
+  width: 47.45%; }
+
+.oldie .mq1-col-one-third {
+  width: 29.55%; }
+
+.oldie .mq1-col-two-thirds {
+  width: 64.95%; }
+
+.oldie .mq1-col-one-quarter {
+  width: 19.95%; }
+
+.oldie .mq1-col-three-quarters {
+  width: 74.95%; }
+
+.oldie .mq2-col-one-half {
+  width: 47.45%; }
+
+.oldie .mq2-col-one-third {
+  width: 29.55%; }
+
+.oldie .mq2-col-two-thirds {
+  width: 64.95%; }
+
+.oldie .mq2-col-one-quarter {
+  width: 19.95%; }
+
+.oldie .mq2-col-three-quarters {
+  width: 74.95%; }
+
+.oldie .mq3-col-one-half {
+  width: 47.45%; }
+
+.oldie .mq3-col-one-third {
+  width: 29.55%; }
+
+.oldie .mq3-col-two-thirds {
+  width: 64.95%; }
+
+.oldie .mq3-col-one-quarter {
+  width: 19.95%; }
+
+.oldie .mq3-col-three-quarters {
+  width: 74.95%; }
